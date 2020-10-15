@@ -17,12 +17,19 @@
             </div>
         </div>
         <hr style="border-top: 1px solid #d3e0e9;"/>
+<<<<<<< HEAD
         <div v-for="i in 10" :key="i" >
             <div class="title-area">
                 <div class="pull-title">
                     <router-link class="pull-title" tag="a" :to="{path:'/article/detail', query: {id: i}}">
                         <span> 合并以下两个开源类库：</span>
                     </router-link>
+=======
+        <div>
+            <div class="title-area">
+                <div class="pull-title">
+                    <span> 合并以下两个开源类库：</span>
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
                 </div>
                 <el-breadcrumb separator="/">
                     <el-breadcrumb-item>分类：PHP</el-breadcrumb-item>
@@ -32,6 +39,7 @@
             </div>
             <el-divider style="margin: 20px 0"></el-divider>
         </div>
+<<<<<<< HEAD
         <div class="fenye">
             <el-pagination
                 background
@@ -39,6 +47,20 @@
                 @current-change="currChange"
                 :total="1000">
             </el-pagination>
+=======
+        <div>
+            <div class="title-area">
+                <div class="pull-title">
+                    <span> 合并以下两个开源类库：</span>
+                </div>
+                <el-breadcrumb separator="/">
+                    <el-breadcrumb-item>分类：PHP</el-breadcrumb-item>
+                    <el-breadcrumb-item><i class="el-icon-view"></i> 10086</el-breadcrumb-item>
+                    <el-breadcrumb-item>发布于2年前</el-breadcrumb-item>
+                </el-breadcrumb>
+            </div>
+            <el-divider style="margin: 20px 0"></el-divider>
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
         </div>
     </div>
 </template>
@@ -54,7 +76,12 @@
                 options: [
                     {
                         'value': 'addtime',
+<<<<<<< HEAD
                         'label': '新发布'
+=======
+                        'label': '新发布',
+                        'default': true
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
                     },
                     {
                         'value': 'views',
@@ -79,6 +106,7 @@
 
                 });
                 console.log(value)
+<<<<<<< HEAD
             },
             currChange (page) {
                 console.log(page)
@@ -88,17 +116,22 @@
             },
             nextClick (page) {
                 console.log(page)
+=======
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
             }
         }
     }
 </script>
 
 <style scoped>
+<<<<<<< HEAD
     a {
         text-decoration: none;
         color: #636b6f;
     }
 
+=======
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
     .el-divider--horizontal {
         margin: 20px 0!important;
         height: 0!important;
@@ -142,6 +175,7 @@
     .pull-title {
         padding: 20px 0;
     }
+<<<<<<< HEAD
 
     .fenye >>> .el-pagination.is-background .el-pager li:not(.disabled).active {
         background-color: #FFCCCC!important;
@@ -151,4 +185,6 @@
     .fenye >>> .el-pagination.is-background .el-pager li:not(.disabled):hover {
         color: #FFCCCC!important;
     }
+=======
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
 </style>

@@ -14,9 +14,15 @@ require('./bootstrap');
  */
 import App from './App.vue';
 import ElementUI from 'element-ui';
+<<<<<<< HEAD
 import VueRouter from 'vue-router';
 import 'element-ui/lib/theme-chalk/index.css';
 import routers from './routers.js';
+=======
+import VueRouter from 'vue-router'
+import 'element-ui/lib/theme-chalk/index.css';
+import routers from './routers.js'
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
 
 Vue.use(ElementUI);
 Vue.use(VueRouter);

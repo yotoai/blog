@@ -25,8 +25,11 @@
     "style-loader": "^0.13.1",
     "vue": "^2.5.2",
     "vue-loader": "^13.3.0"
+<<<<<<< HEAD
   },
   "dependencies": {
     "vue-router": "^3.4.5"
+=======
+>>>>>>> cd7d4f2c56d8a81be5c90ef662019cfc1542d815
   }
 }
