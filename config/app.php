@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        VladimirYuldashev\LaravelQueueRabbitMQ\LaravelQueueRabbitMQServiceProvider::class,
         //
 
         /*

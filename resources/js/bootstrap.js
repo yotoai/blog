@@ -30,12 +30,18 @@ window.axios = require('axios');
 window.axios.defaults.headers.common = {
     'X-Requested-With': 'XMLHttpRequest'
 };
+window.axios.defaults.baseURL = 'http://bl.com/api/';
+
+window.axios.defaults.timeout = 6000;
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
  * allows your team to easily build robust real-time web applications.
  */
+
+window.echarts = require('echarts');
+require('echarts-wordcloud');
 
 // import Echo from "laravel-echo"
 

@@ -1,30 +1,32 @@
 <template>
-  <div id="app">
-    <example></example>
-    <el-button @click="visible = true">Click to open me</el-button>
-    <el-dialog :visible.sync="visible" title="Hello world">
-      <p>You Should Try Element (This is in /resources/js/App.vue)</p>
-    </el-dialog>
-  </div>
+    <div id="app">
+        <hnav></hnav>
+        <hcontent></hcontent>
+        <hfooter></hfooter>
+    </div>
 </template>
 <script>
-  import Example from './components/Example.vue';
+    import Hnav from './components/Nav';
+    import Hcontent from './components/Content';
+    import Hfooter from './components/Footer';
 
-  export default {
-    name: 'app',
-    data () {
-      return {
-        visible: false,
-      }
-    },
-    components: {
-      Example
-    }
-  };
+    export default {
+        name: 'app',
+        data() {
+            return {}
+        },
+        components: {
+            Hnav,
+            Hcontent,
+            Hfooter
+        }
+    };
 </script>
 <style scoped>
-  /* Add scoped styles */
-  #app {
-    padding: 20px;
-  }
+    /* Add scoped styles */
+    #app {
+        /*padding: 20px;*/
+        background-color: #F0F2F5;
+
+    }
 </style>
